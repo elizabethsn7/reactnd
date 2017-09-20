@@ -9,13 +9,13 @@ class ListContacts extends Component {
             <div className='contact-avatar' style={{
               backgroundImage: `url(${contact.avatarURL})`
             }}/>
-            <div className='contact-details'>
-              <p>{contact.name}</p>
-              <p>{contact.email}</p>
-            </div>
-            <button className='contact-remove'>
-              Remove
-            </button>
+          <div className='contact-details'>
+            <p>{contact.name}</p>
+            <p>{contact.email}</p>
+          </div>
+          <button className='contact-remove'>
+            Remove
+          </button>
           </li>
         ))}
       </ol>
